@@ -19,7 +19,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 3000);
+    }, 1000); // Reduced loading time to 1 second
 
     return () => clearTimeout(timer);
   }, []);
@@ -49,8 +49,11 @@ export default function Home() {
               </div>
             </section>
             <Projects />
-            <section id='education' className='py-20 bg-muted/30'>
-              <div className='container mx-auto px-6'>
+            <section
+              id='education'
+              className='py-20 bg-muted/30 relative overflow-hidden'
+            >
+              <div className='container mx-auto px-6 relative z-10'>
                 <h2 className='text-3xl md:text-4xl font-bold text-center mb-12'>
                   Education
                 </h2>
