@@ -151,8 +151,8 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.8 }}
           >
             {[
-              { icon: Github, href: '#', label: 'GitHub' },
-              { icon: Linkedin, href: '#', label: 'LinkedIn' },
+              { icon: Github, href: 'https://github.com/dananjayaabeytd', label: 'GitHub' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/in/dananjaya-abenayaka-3069b0232/', label: 'LinkedIn' },
               { icon: Mail, href: '#', label: 'Email' },
             ].map((social, index) => (
               <motion.a

@@ -45,7 +45,7 @@ export function Footer() {
             transition={{ duration: 0.6, delay: 0.3 }}
             viewport={{ once: true }}
           >
-            Made with <Heart className="h-4 w-4 text-red-500" /> by John Doe © 2024
+             Dananjaya Abey © 2025
           </motion.p>
         </motion.div>
       </div>

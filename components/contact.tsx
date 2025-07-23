@@ -31,19 +31,19 @@ export function Contact() {
     {
       icon: Mail,
       title: "Email",
-      value: "john.doe@example.com",
-      href: "mailto:john.doe@example.com",
+      value: "dananjayaabeytd@gmail.com",
+      href: "mailto:dananjayaabeytd@gmail.com",
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
+      value: "+94 77 103 2184",
+      href: "tel:+94771032184",
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "San Francisco, CA",
+      value: "Colombo, Sri Lanka",
       href: "#",
     },
   ]
